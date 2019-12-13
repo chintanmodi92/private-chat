@@ -6,6 +6,8 @@ const updateMsg = document.querySelector('.update-msg');
 const rooms = document.querySelector('.chat-rooms');
 const btnClicked = document.querySelectorAll('.clicked');
 
+
+
 btnClicked.forEach(btn => console.log(btn))
 // add a new chat
 newChatForm.addEventListener('submit', e=> {
